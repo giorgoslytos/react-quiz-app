@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+}
+.App {
+  text-align: center;
+  background-color: #ccc;
+}
+.buttons {
+  height: 35px;
+}
+.previous {
+  position: absolute;
+  left: 1.25rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.next {
+  position: absolute;
+  right: 1.25rem;
+}
+
+form input[type='radio']:checked + label {
+  background-color: #117a8b;
+  border-color: #10707f;
+  color: white;
+}
+
+form input[type='radio']:hover + label {
+  background-color: #138496;
+  border-color: #117a8b;
+  color: white;
+}
+form input[type='radio']:active + label {
+  background-color: #117a8b !important;
+  border-color: #10707f !important;
+}
+
+form input[type='radio']:focus + label {
+  background-color: #138496;
+  border-color: #117a8b;
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+form input[type='checkbox']:checked + label {
+  background-color: #117a8b;
+  border-color: #10707f;
+  color: white;
+}
+
+form input[type='checkbox']:hover + label {
+  background-color: #138496;
+  border-color: #117a8b;
+  color: white;
+}
+form input[type='checkbox']:active + label {
+  background-color: #117a8b !important;
+  border-color: #10707f !important;
+}
+
+form input[type='checkbox']:focus + label {
+  background-color: #138496;
+  border-color: #117a8b;
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.Results {
+  /* background-color: white; */
+}
+
+.counter {
+  align-self: flex-end;
+  white-space: nowrap;
 }
