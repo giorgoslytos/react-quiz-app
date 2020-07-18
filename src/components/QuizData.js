@@ -1,21 +1,21 @@
 const QuizData = [
 	{
 		id: 0,
-		question: `React or Angular?`,
-		options: [`React`, `Angular`],
-		answer: `React`,
+		question: `NgRX uses the RxJS observables for Angular`,
+		options: [`True`, `False`],
+		answer: `True`,
 		type: `radio`
 	},
 	{
 		id: 1,
-		question: `React Hooks or Classes?`,
-		options: [`Hooks`, `Classes`],
-		answer: `Hooks`,
+		question: `React Hooks were introduced in replacement for React Classes?`,
+		options: [`True`, `False`],
+		answer: `True`,
 		type: `radio`
 	},
 	{
 		id: 2,
-		question: `Select the best Programming Language`,
+		question: `Select the only language that browsers can understand`,
 		options: [`JavaScript`, `Java`, `C#`, `Pascal`, `PHP`],
 		answer: `JavaScript`,
 		type: `radio`
@@ -36,9 +36,30 @@ const QuizData = [
 	},
 	{
 		id: 5,
-		question: `FANG consists of which American technology companies?`,
+		question: `FANG is consisted of which American technology companies?`,
 		options: [`Facebook`, `Amazon`, `Netflix`, `Google`, `Adobe`, `Apple`, `Accenture`, `Nokia`],
 		answer: [`Facebook`, `Amazon`, `Netflix`, `Google`],
+		type: `checkbox`
+	},
+	{
+		id: 6,
+		question: `Which of the following technologies are backend frameworks?`,
+		options: [`Django`, `Vue`, `EmberJS`, `Laravel`, `Spring`],
+		answer: [`Django`, `Laravel`, `Spring`],
+		type: `checkbox`
+	},
+	{
+		id: 7,
+		question: `The MERN stack is consisted of which technologies?`,
+		options: [`MongoDB`, `Express`, `React`, `NodeJS`, `EmberJS`, `MySQL`, `EJS`, `Ruby on Rails`],
+		answer: [`MongoDB`, `Express`, `React`, `NodeJS`],
+		type: `checkbox`
+	},
+	{
+		id: 8,
+		question: `The LAMP stack is consisted of which technologies?`,
+		options: [`Linux`, `Apache`, `MySQL`, `PHP`, `Angular`, `MongoDB`],
+		answer: [`Linux`, `Apache`, `MySQL`, `PHP`],
 		type: `checkbox`
 	}
 ];
