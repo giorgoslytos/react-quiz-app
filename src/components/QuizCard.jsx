@@ -58,11 +58,12 @@ const QuizCard = ({
                   <input
                     className="form-check-input"
                     type="checkbox"
-                    name={option}
+                    name={option || ''}
                     id={option}
                     value={option}
                     checked={
                       userAnswer[quiz.id] &&
+                      Array.isArray(userAnswer[quiz.id]) &&
                       userAnswer[quiz.id].includes(option)
                     }
                     readOnly

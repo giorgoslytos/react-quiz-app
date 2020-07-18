@@ -1,38 +1,45 @@
 const QuizData = [
 	{
 		id: 0,
-		question: ` What is the Capital Of India ?`,
-		options: [`New Delhi`, `Mumbai`, `Kolkatta`],
-		answer: `New Delhi`,
+		question: `React or Angular?`,
+		options: [`React`, `Angular`],
+		answer: `React`,
 		type: `radio`
 	},
 	{
 		id: 1,
-		question: `Who is the CEO of Tesla Motors?`,
-		options: [`Bill Gates`, `Steve Jobs`, `Elon Musk`],
-		answer: `Elon Musk`,
+		question: `React Hooks or Classes?`,
+		options: [`Hooks`, `Classes`],
+		answer: `Hooks`,
 		type: `radio`
 	},
 	{
 		id: 2,
-		question: `Name World's Richest Man?`,
-		options: [`Jeff Bezos`, `Bill Gates`, `Mark Zuckerberg`],
-		answer: `Jeff Bezos`,
+		question: `Select the best Programming Language`,
+		options: [`JavaScript`, `Java`, `C#`, `Pascal`, `PHP`],
+		answer: `JavaScript`,
 		type: `radio`
 	},
 	{
 		id: 3,
-		question: `World's Longest River?`,
-		options: [`River Nile`, `River Amazon`, `River Godavari`],
-		answer: `River Nile`,
+		question: `NodeJS is a runtime environment for JavaScript and not a separate language`,
+		options: [`True`, `False`],
+		answer: `True`,
 		type: `radio`
 	},
 	{
 		id: 4,
-		question: `Which 3 of these are front end frameworks?`,
-		options: [`Vue`, `React`, `Angular`, `whatever`],
-		answer: [`Vue`, `React`, `Angular`],
-		type: `checkbox`
+		question: `Which of the following is a templating language for JavaScript?`,
+		options: [`EJS`, `JQuery`, `React`, `Ruby`],
+		answer: `EJS`,
+		type: `radio`
 	},
+	{
+		id: 5,
+		question: `FANG consists of which American technology companies?`,
+		options: [`Facebook`, `Amazon`, `Netflix`, `Google`, `Adobe`, `Apple`, `Accenture`, `Nokia`],
+		answer: [`Facebook`, `Amazon`, `Netflix`, `Google`],
+		type: `checkbox`
+	}
 ];
 export default QuizData;

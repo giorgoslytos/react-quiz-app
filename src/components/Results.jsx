@@ -11,7 +11,7 @@ const Results = ({
     <div className="Results card">
       <div className="card-body text-center">
         <h4 className="card-title">
-          Your result was : <span>{percentage}%</span>
+          Your result was : <span>{Math.round(percentage)}%</span>
         </h4>
         {percentage === 100 ? (
           <h2 className="text-success">Ace!!!</h2>
